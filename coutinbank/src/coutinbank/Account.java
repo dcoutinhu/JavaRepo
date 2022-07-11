@@ -82,7 +82,7 @@ public class Account {
 	 * @return the balance
 	 */
 	public double getBalance() {
-		System.out.println(String.format("Balance: %f", this.balance));
+		System.out.println(String.format("Balance: R$ %.2f", this.balance));
 		return balance;
 	}
 	/**
