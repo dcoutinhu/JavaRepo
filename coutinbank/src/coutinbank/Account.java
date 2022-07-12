@@ -85,12 +85,7 @@ public class Account {
 		System.out.println(String.format("Balance: R$ %.2f", this.balance));
 		return balance;
 	}
-	/**
-	 * @param balance the balance to set
-	 */
-	public void setBalance(double balance) {
-		this.balance = balance;
-	}
+
 	/**
 	 * @return the clientName
 	 */
